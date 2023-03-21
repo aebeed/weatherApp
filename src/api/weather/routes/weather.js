@@ -2,7 +2,7 @@ module.exports = {
   routes: [
      {
       method: 'GET',
-      path: '/weather',
+      path: '/v1/isitraining',
       handler: 'weather.getWeather',
       config: {
         policies: [],
